@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
-    <header>
+    <!-- <header>
         <section class="navigation">
 
             <a href="#"> <img src="./img/logo.svg" alt="logo" class="logo"></a>
 
             <nav>
                 <ul>
-                    <li>Главная</li>
-                    <li>Вакансии</li>
-                    <li>Компании</li>
+                    <li><a href="#">Главная</a> </li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Компании</a></li>
                 </ul>
 
                 <a href="#">Войти</a>
@@ -59,134 +65,169 @@
             </div>
             
         </section>
-    </header>
+    </header> -->
 
 
     <main>
 
+        <div class="box">
             <h2 class="categories"> Категории</h2>
-
+                        
             <ul class="categories-list">
                 <li>
-                    <i class="brush"></i>
+                    <i class="icon-brush"></i>
                     <p>Дизайн</p>
                 </li>
                 <li>
-                    <i class="browser"></i>
+                    <i class="icon-browser"></i>
                     <p>Разработка</p>
                 </li>
                 <li>
-                    <i class="edit"></i>
+                    <i class="icon-edit"></i>
                     <p>Копирайтинг</p>
                 </li>
                 <li>
-                    <i class="fingerprint"></i>
+                    <i class="icon-fingerprint"></i>
                     <p>Безопасность</p>
                 </li>
                 <li>
-                    <i class="camera"></i>
+                    <i class="icon-camera"></i>
                     <p>Видео</p>
                 </li>
                 <li>
-                    <i class="school"></i>
-                    <p>Образование  </p>
+                    <i class="icon-school"></i>
+                    <p>Образование </p>
                 </li>
             </ul>
 
-
+                                                <!-- VACANCY -->
 
             <h2 class="vacancy">Свежие вакансии</h2>
-
+            
             <ul class="vacancy-list">
-                <li>
+                <li class="vacancy-card">
                     <img src="./img/logo-company.svg" alt="company's logo">
-                    <div>
+                    
+                    <div class="job-vacancy">
                         <h3>Front-end разработчик</h3>
                         <p>Технопарк, Киев</p>
                     </div>
-
-                    <p>850$</p>
-
-                    <div>
-                        <p>Требования:</p>
-                        <p>React</p>
-                        <p>Sass</p>
-                        <p>Figma</p>
+                    
+                    <button>850$</button>
+                    
+            
+                    <div class="job-requirements">
+                        <p class="requirement">Требования:</p>
+                        <div class="requirements">
+                            <p>React</p>
+                            <p>Sass</p>
+                            <p>Figma</p>
+                        </div>
+            
                     </div>
 
-                    <a href="#"></a>
+                    
+                    <a href="#">Подробнее →</a>
+                    
                 </li>
 
 
-                <li>
+
+                <li class="vacancy-card">
                     <img src="./img/logo-company.svg" alt="company's logo">
-                    <div>
+                
+                    <div class="job-vacancy">
                         <h3>Front-end разработчик</h3>
                         <p>Технопарк, Киев</p>
                     </div>
-
-                    <p>850$</p>
-
-                    <div>
-                        <p>Требования:</p>
-                        <p>React</p>
-                        <p>Sass</p>
-                        <p>Figma</p>
+                
+                    <button>850$</button>
+                
+                
+                    <div class="job-requirements">
+                        <p class="requirement">Требования:</p>
+                        <div class="requirements">
+                            <p>React</p>
+                            <p>Sass</p>
+                            <p>Figma</p>
+                        </div>
+                
                     </div>
-
-                    <a href="#"></a>
+                
+                
+                    <a href="#">Подробнее →</a>
+                
                 </li>
 
 
-                <li>
+
+                <li class="vacancy-card">
                     <img src="./img/logo-company.svg" alt="company's logo">
-                    <div>
+                
+                    <div class="job-vacancy">
                         <h3>Front-end разработчик</h3>
                         <p>Технопарк, Киев</p>
                     </div>
-
-                    <p>850$</p>
-
-                    <div>
-                        <p>Требования:</p>
-                        <p>React</p>
-                        <p>Sass</p>
-                        <p>Figma</p>
+                
+                    <button>850$</button>
+                
+                
+                    <div class="job-requirements">
+                        <p class="requirement">Требования:</p>
+                        <div class="requirements">
+                            <p>React</p>
+                            <p>Sass</p>
+                            <p>Figma</p>
+                        </div>
+                
                     </div>
-
-                    <a href="#"></a>
+                
+                
+                    <a href="#">Подробнее →</a>
+                
                 </li>
 
 
-                <li>
+
+                <li class="vacancy-card">
                     <img src="./img/logo-company.svg" alt="company's logo">
-                    <div>
+                
+                    <div class="job-vacancy">
                         <h3>Front-end разработчик</h3>
                         <p>Технопарк, Киев</p>
                     </div>
-
-                    <p>850$</p>
-
-                    <div>
-                        <p>Требования:</p>
-                        <p>React</p>
-                        <p>Sass</p>
-                        <p>Figma</p>
+                
+                    <button>850$</button>
+                
+                
+                    <div class="job-requirements">
+                        <p class="requirement">Требования:</p>
+                        <div class="requirements">
+                            <p>React</p>
+                            <p>Sass</p>
+                            <p>Figma</p>
+                        </div>
+                
                     </div>
-
-                    <a href="">Подробнее# →</a>
+                
+                
+                    <a href="#">Подробнее →</a>
+                
                 </li>
-
-
+            
+            
+                
+            
+            
             </ul>
 
             <button>Больше вакансий</button>
+        </div>
+
+        </main>
 
 
-    </main>
-
-
-    <footer>
+    <!-- <footer>
 
         <section>
 
@@ -236,7 +277,7 @@
 
         </section>  
 
-    </footer>
+    </footer> -->
 
 
 </body>

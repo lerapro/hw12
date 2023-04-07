@@ -1,0 +1,82 @@
+@media (min-width: 1200px) {
+    .box{
+        width: 1146px;
+
+        margin: 70px auto 80px;
+    }
+
+    .categories-list{
+        flex-direction: row;
+
+        height: 128px;
+        width: 1146px;
+    }
+
+    .categories-list>li:hover{
+        background-color: #1A75E8;
+        color: white;
+    }
+
+    .categories-list>li:hover p {
+        color: white;
+    }
+
+    .categories{
+        text-align: left;
+    }
+
+
+                                        /* VACANCY */
+    .vacancy-list{
+        width: 1146px;
+        height: 700px;
+    }
+
+    .vacancy-card{
+        flex-direction: row;
+        width: 1146px;
+        height: 160px;
+
+        padding: 0 55px 0 30px
+    }
+
+    .vacancy-card>img{
+        margin-right: 20px;
+    }
+
+    .job-vacancy{
+        margin: 0px 46px 0px 0px;
+        flex-direction: column; 
+        justify-content: center;
+
+        text-align: left;
+    }
+
+    .vacancy-card> button {
+        margin-right: 62px;
+        margin-top: 0;
+    }
+
+    .job-requirements{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 176px;
+        margin-top: 0;
+    }
+
+    .vacancy-card>a{
+        margin-top: 0;
+    }
+
+    .requirement{
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .vacancy{
+        text-align: left;
+    }
+}
