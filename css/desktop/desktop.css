@@ -1,8 +1,146 @@
 @media (min-width: 1200px) {
-    .box{
-        width: 1146px;
 
-        margin: 70px auto 80px;
+    h2{
+        font-size: 24px;
+        line-height: 29px;
+    }
+/*-------------------------------------HEADER-NAVIGATION */
+    .navigation{
+        padding-top: 50px;
+    }
+
+    .logo{
+        width: 131px;
+        height: 30px;
+
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .header-btn {
+        display:flex;
+        justify-content: space-between;
+        position: relative;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color:#f2f3f6;
+    }
+
+    .header-list{
+        margin-top: 0;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-item{
+        margin: 0px 20px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-item:hover a{
+        color: #1A75E8;
+    }
+
+    .join-block{
+        flex-direction: row;
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    .log-in{
+        margin: 0 50px 0 0;
+        background-color: #f2f3f6;
+    }
+
+    .regis{
+        margin: 0;
+    }
+
+    label span,
+    label span::after,
+    label span::before {
+        display: none;
+        }
+
+/*-------------------------------------HEADER-INFO*/
+.header-info{
+    display: flex;
+}
+
+.hero{
+    width: 50%;
+}
+
+.hero>h1 {
+    margin-top: 118px;
+    text-align: left;
+
+    font-size: 44px;
+    line-height: 53px;
+
+    width: 460px;
+}
+
+.hero>p {
+    text-align: left;
+
+    width: 460px;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.search {
+    margin-left:0;
+    width: 450px;
+}
+
+.search-btn {
+    width: 222px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+}
+
+.search-btn>p {
+    display: block;
+    margin-left: 10px;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header-examples{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.examples-list {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.hero-image{
+    width: 544.11px;
+    height: 557.49px;
+
+    margin-top: 75px;
+}
+
+
+/*----------------------------------- CATEGORIES */
+    .container{
+        width: 1146px;
+        margin: 0px auto;
     }
 
     .categories-list{
@@ -23,10 +161,15 @@
 
     .categories{
         text-align: left;
+
+        margin-top: 70px;
     }
 
+/*------------------------------------VACANCY */
+    .vacancy {
+        margin-top: 150px;
+    }
 
-                                        /* VACANCY */
     .vacancy-list{
         width: 1146px;
         height: 700px;
@@ -78,5 +221,70 @@
 
     .vacancy{
         text-align: left;
+    }
+
+    .main-btn{
+        margin-bottom: 80px;
+    }
+
+/*------------------------------------ADVERTISING*/
+    /* .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    } */
+
+
+    .advertising>h1 {
+        font-size: 36px;
+        line-height: 43px;
+        width: 460px;
+        margin: 90px auto 0;
+    }
+
+    .advertising>p {
+        font-size: 18px;
+        line-height: 140%;
+        width: 460px;
+        margin: 20px auto 0;
+    }
+
+    .ad-email{
+        margin: 40px auto 0;
+        width: 447px;
+    }
+
+    .ad-btn{
+        width: 181px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ad-btn>p {
+        display: block;
+        margin-left: 10px;
+    
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+/*------------------------------------FOOTER*/
+
+    .footer{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .footer-logo{
+        margin-top: 70px;
+    }
+
+    .connection,
+    .footer-info,
+    .footer-nav {
+        margin-top: 70px;
     }
 }
